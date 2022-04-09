@@ -1,7 +1,7 @@
 // Only change code below this line
 var dress = "little dress";
 function myDress() {
-    dress = "ball gown";
+    var dress = "ball gown";
     return dress;
 }
 console.log(myDress());

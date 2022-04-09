@@ -9,6 +9,6 @@ localScope();
 if (typeof myVariable != "undefined") {
     console.log('outside localScope', myVariable)
 } else {
-    console.log('outisde localScope UNDEFINED!!!')
-}
+    console.log('outside localScope UNDEFINED!!!')
+};
 module.exports = localScope;
